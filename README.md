@@ -1,9 +1,8 @@
-# How to change the cell background based on the cell value in WinForms DataGrid(SfDataGrid)?
+# How to Change the Cell Background Based on the Cell Value in WinForms DataGrid?
 
-## About the sample
-This example illustrates how to change the cell background based on the cell value in WinForms DataGrid(SfDataGrid)?
+This example illustrates how to change the cell background based on the cell value in [WinForms DataGrid](https://www.syncfusion.com/winforms-ui-controls/datagrid) (SfDataGrid).
 
-You can apply the background color for cell based on cell value can be achieve by using SfDataGrid.QueryCellStyle event.
+You can apply the background color for cell based on cell value can be achieve by using [SfDataGrid.QueryCellStyle](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.DataGrid.SfDataGrid.html#Syncfusion_WinForms_DataGrid_SfDataGrid_QueryCellStyle) event.
 
 ```C#
 sfDataGrid1.QueryCellStyle += SfDataGrid1_QueryCellStyle;
@@ -25,7 +24,3 @@ private void SfDataGrid1_QueryCellStyle(object sender, Syncfusion.WinForms.DataG
 ```
 
 ![Background color applied based on cell value in SfDataGrid](CellBackGround.png)
-
-## Requirements to run the demo
-Visual Studio 2015 and above versions
-
